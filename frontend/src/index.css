@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  /* Deep Modern Tech Gradient */
+  background: radial-gradient(circle at top left, #1e1b4b, #312e81, #0f172a);
+  color: white;
+  min-height: 100vh;
+}
